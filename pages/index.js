@@ -1,7 +1,7 @@
 function Home() {
 
     return <h1>
-      Hello its my first site with nextJs 👽
+     Asa de urubu, pena de galinha, se você me amar... Dê uma risadinha
     </h1>
 }
 
