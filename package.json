@@ -14,9 +14,9 @@
     "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "migration:create": "node-pg-migrate --migration-dir infra/migrations create",
-    "migration:up": "node-pg-migrate --migration-dir infra/migrations up",
-    "migration:down": "node-pg-migrate --migration-dir infra/migrations down"
+    "migration:create": "node-pg-migrate --m infra/migrations create",
+    "migration:up": "node-pg-migrate --m infra/migrations up",
+    "migration:down": "node-pg-migrate --m infra/migrations down"
   },
   "dependencies": {
     "dotenv": "^16.4.4",
